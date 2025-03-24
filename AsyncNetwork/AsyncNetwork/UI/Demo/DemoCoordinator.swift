@@ -41,6 +41,6 @@ final class DemoCoordinator: CoordinatorProtocol, DemoCoordinatorDelegate {
         coordinator.parentCoordinator = self
         children.append(coordinator)
 
-        coordinator.startSwiftUI()
+        coordinator.start()
     }
 }
